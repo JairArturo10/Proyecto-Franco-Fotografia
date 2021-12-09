@@ -1,0 +1,126 @@
+	
+body{
+	font-family:arial, helvatica;
+	background: #e8e8e8;
+}
+
+header{
+	max-width: 1000 px;
+	min-height: 130 px;
+	margin: 0 auto;
+	border-radius: 20 px 20px 0 0;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+15,ffffff+45,ffffff+45,ffffff+57,eaeaea+100 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgb(255,255,255) 15%, rgb(255,255,255) 45%, rgb(255,255,255) 45%, rgb(255,255,255) 57%, rgb(234,234,234) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgb(255,255,255) 15%,rgb(255,255,255) 45%,rgb(255,255,255) 45%,rgb(255,255,255) 57%,rgb(234,234,234) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgb(255,255,255) 15%,rgb(255,255,255) 45%,rgb(255,255,255) 45%,rgb(255,255,255) 57%,rgb(234,234,234) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
+
+	
+}
+#logo{
+	margin-left: 133px;
+}
+
+
+.menu{
+	list-style: none;
+	padding: 0;
+	width: 90%;
+		max-width: 1200px;
+	margin: auto;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#707072+53,484646+100 */
+background: #707072; /* Old browsers */
+background: -moz-linear-gradient(top,  #707072 53%, #484646 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #707072 53%,#484646 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #707072 53%,#484646 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#707072', endColorstr='#484646',GradientType=0 ); /* IE6-9 */
+
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cc9900+59,926d00+100 */
+background: rgb(204,153,0); /* Old browsers */
+background: -moz-linear-gradient(top,  rgb(204,153,0) 59%, rgb(146,109,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgb(204,153,0) 59%,rgb(146,109,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgb(204,153,0) 59%,rgb(146,109,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc9900', endColorstr='#926d00',GradientType=0 ); /* IE6-9 */
+
+
+	
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+main{
+	
+	font-family: 'Raleway', sans-serif;
+}
+
+main{
+	width: 100%;
+	height: auto;
+	position: relative;
+	overflow: hidden;
+}
+
+#video{
+	widht: 100%;
+	video-align: center;
+	animation-iteration-count: infinite;
+}
+
+#Bienvenidos{
+	text-align: center;
+}
+
+#blog h3, h4{
+	text-align: center;
+}
+
+#blog .container{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#blog article{
+	margin: 15px;
+}
+
+#blog img{
+	width: 100%;
+	max-width: 280px;
+}
+
+footer .copy{
+	margin-top: 90px;
+	text-align: center;
+}
+
+footer .aviso{
+
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 90px;
+	text-align: center;
+	font-size: 12px;
+}
+
